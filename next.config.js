@@ -10,5 +10,5 @@ module.exports = {
       "/": { page: "/" }
     };
   },
-  assetPrefix: !debug ? "/punch/" : ""
+  assetPrefix: !debug ? "https://oseau.github.io/punch/" : ""
 };
