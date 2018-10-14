@@ -262,7 +262,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var playSound = function playSound() {
   var howl = new howler__WEBPACK_IMPORTED_MODULE_3__["Howl"]({
-    src: ["../static/sound/camera_shutter.mp3"]
+    src: ["/static/sound/camera_shutter.mp3"]
   });
   howl.play();
 };
