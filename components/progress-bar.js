@@ -5,7 +5,9 @@ import isNull from "lodash/isNull";
 import debounce from "lodash/debounce";
 
 let playSound = () => {
-  const howl = new Howl({ src: ["../static/sound/camera_shutter.mp3"] });
+  const howl = new Howl({
+    src: [process.env.BACKEND_URL + "/static/sound/camera_shutter.mp3"]
+  });
   howl.play();
 };
 
